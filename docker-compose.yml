@@ -8,5 +8,5 @@ services:
     ports:
       - "3000:3000"
     volumes:
-      - /usr/app/node_modules
-      - .:/urs/app
+      - /app/node_modules
+      - .:/app/
